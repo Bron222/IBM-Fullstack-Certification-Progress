@@ -6,7 +6,7 @@
 - [x] Building Quality Software
 
 ## Notes
--Engineer focuses more on design aspects, larger picture
+- Engineer focuses more on design aspects, larger picture
 -Developer focuses on feature management
 -SDLC phases: 1. Planning 2. Design 3. Development 4. Testing 5. Deloyment 6. Maintenance
 -1. Planning: requirement are gathered, analyzed, documented, prioritized. 
