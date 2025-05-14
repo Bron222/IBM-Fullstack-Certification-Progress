@@ -1,9 +1,9 @@
 # Notes for 01 Intro Software Engineering
 
 ## ✅ Topics Covered
-- [ ] Software Engineer vs Developer
-- [ ] SDLC
-- [ ] Building Quality Software
+- [x] Software Engineer vs Developer
+- [x] SDLC
+- [x] Building Quality Software
 
 ## Notes
 -Engineer focuses more on design aspects, larger picture
