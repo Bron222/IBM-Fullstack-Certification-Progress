@@ -50,5 +50,5 @@
   - General Availability: Stable, all users
  
 - Documenting:
- - system docs - explains how the system works, maintenance, README files, inline comments, arch and design, (technical documents)
- - User docs - user guides, instructional vids, manuals, online and inline help (non tech docs)
+  - system docs - explains how the system works, maintenance, README files, inline comments, arch and design, (technical documents)
+  - User docs - user guides, instructional vids, manuals, online and inline help (non tech docs)
