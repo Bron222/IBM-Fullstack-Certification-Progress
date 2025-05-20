@@ -93,3 +93,131 @@
   - Strong style - pair a junior with experience dev. Senior is the navigator. Junior learns and driverr
   - benefits: shared knowledge, build soft skills, fewer typos/bugs/logical errors, code review on the fly, identify optimal solution early on, overall effeciency
   - Challenges: long periods of focus/exhausting, personal/work commitment issues, one person taking control, personality clash, noisy environment
+
+## Application Development Tools
+- Tools for Cloud app dev: Version control, libraries, frameworks
+- Version Control: track changes (who/when/what), resolves change conflicts, creates a way to revdert to an older version
+
+#### Libraries
+- Libraries - collections of reusable code
+- Multiple code libararies can be integrated into a project and help solve specific problems
+- use anytime
+
+#### Frameworks
+- Frameworks - provide standard way to build and deploy applications
+- like a skeleton you extend by adding your own code
+- should be used from the beginning. new frameworks can't be added into an existing project. needs to be use at the beginning of project
+- dictates the architecture of the app
+- specific structure you must follow
+- Framework calls on your code
+- less control, more standardization and effieciency
+- AngularJS - Js Framework for dynamic web apps
+- VUE.js - JS Framework for user interface
+- Django - Python framework for web development
+- Inversion of Control - makes the framework extensible. Makes you feel like you have less control over development
+- Frameworks with lots of control are called "Opinionated"
+- Frameworks sometimes used their own libraries
+
+#### CI/CD
+- continuous integration with continuous delivery / continous deployment
+- enable developers to deliver frequent changes reliably
+- implemented through a build-automation server
+- CI auto builds and tests code
+- CD deploys the changes
+
+#### Build tools
+- transform source code into binaries for installation 
+- Important in environments with many inter-connected projects and multi-developers
+- Automate tasks like: downloading dependencies, compiling into binary, packaging that binary code, running tests, deployment to production systems
+- Initiate a build rom the command line or from an IDE
+- Two categories that widely use: build-auto utilities & build-auto servers
+- ex: webpack - module bundler for JS
+- ex: Babel - JS compiler
+- ex: Web Assembly - binary instruction format that runs in browser
+
+#### Packages
+- make apps easy to install
+- contain app files and instructions for install
+- metadata
+- Once bundles into package, use PACKAGE MANAGER to distrubte it
+- Package Managers - make working with packages easier, coordinate with file archivers to extract package archives, verify checksums and digital certs to ensure integrity and authenticity, locate/download/install/update existing software from a software repository, manage dependencies to ensure a package is installed with all packages it requires
+Linux examples of package managers:
+- ex: Debian Package Management System (DPKG)
+- Red Hat Package Manager (RPM)
+Windows:
+- Chocolately
+Android:
+- Package Manager
+MacOS
+- Homebrew
+- MacPorts
+
+- Libraries and uitility code are managed with cloud app package managers
+Node.js/JS: npm
+Java: Gradle, Maven
+Ruby: RubyGems
+Python: Pip, Conda
+
+#### Software Stacks
+ - 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
