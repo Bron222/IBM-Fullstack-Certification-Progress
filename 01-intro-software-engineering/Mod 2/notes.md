@@ -58,3 +58,36 @@
 ## Back-End Dev
 - creates and managees resources needed to respond to client requests
 - enables serves infra. to process requests, supply data and provide other services securely
+- process the data you enter: login info, product searches, payment info
+- write the parts of the app that process the inputs
+
+#### APIs, routing, and endpoints
+- requesting image, fill out form, input sensitive info all require a different service from the back-end server
+- APIs, routes, and endpoints process requests from the front-end
+- API - code that works with data - usually using .json or .xml
+ - have set rules and structure
+ - provide a way for Cloud Apps to access resources from the back-end
+- Route - path to a website or page
+- endpoint - may be an API or route
+- Back-end devs create routes to direct requests to the correct service
+
+#### Back-end languages and frameworks
+- JavaScript
+ - Frameworks: Node.js and Express
+- Python: wide functionality
+ - Frameworks: Django and Flask
+- DBs: use SQL and ORM (Object Relational Mapping)
+
+- Teamwork and Squads
+ - squads - use agile, small team of up to 10 devs
+ - squads - squad leaders, product devs, UX devs or designers
+ - squads may practice in pair programming
+
+- Pair Programming
+ - 2 devs / 1 computer - work side by side on one computer either physically or shared screens /virtually
+ - type of agile dev technique
+ - styles: driver / navigator - driver types the code - nav review code as it's written
+  - ping pong style: dev 1 writes the test, dev 2 writes code to pass the test, swap roles regularly
+  - Strong style - pair a junior with experience dev. Senior is the navigator. Junior learns and driverr
+ - benefits: shared knowledge, build soft skills, fewer typos/bugs/logical errors, code review on the fly, identify optimal solution early on, overall effeciency
+ - Challenges: long periods of focus/exhausting, personal/work commitment issues, one person taking control, personality clash, noisy environment
