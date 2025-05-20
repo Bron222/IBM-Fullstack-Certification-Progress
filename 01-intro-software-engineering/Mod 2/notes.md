@@ -6,6 +6,11 @@
 - [x] Back-End Development
 - [x] Frameworks / Libraries / Tools / APIs
 - [x] Teams / Squads
+- [x] CI/CD / Packages
+- [x] Hand-on Lab
+
+
+
 
 # Notes
 
@@ -159,7 +164,54 @@ Ruby: RubyGems
 Python: Pip, Conda
 
 #### Software Stacks
- - 
+- upper portion of stacks interact with user
+- lower portion interact with hardware
+- typically include: front-end tech, back-end tech
+- Parts / Layers: Presentation layer, logic layer, data layer, (security layer, virtualization layer, orchestration layer <-- if more complex)
+- can be made up of internal sources, 3rd party, or cloud technologies, no formal definition
+- can use all of a stack or just parts you need
+
+- popular stacks:
+  - Python-Django
+  - Ruby on Rails
+  - ASP .NET
+  - LAMP, MEAN, MEVN, MERN
+
+- LAMP stack: Linux, Apache, MySQL, PHP
+  - early example of stack, loosely coupled, so can interchange techs easily
+- MEAN stack: MongoDB, Express.js, Angular.js, Node.js
+  - platform agnostic, free/open-source, React - MERN, Vue.js - MEVN
+
+- COMPARE:
+  - MEAN: all just JS, lots of docs and resuable code, not suited for large-scal apps or relational DB
+  - MEVN: similar to MEAN, WEB stack, Less reusable libraries
+  - LAMP: lots of resuable code and support, only on Linux, isn't as flexible as MERN/MERV, not suited for non-realtional DB, uses different languages
+
+
+## HANDS-ON LAB
+- used Skills Network Cloud IDE to create and run a simple Python app
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
