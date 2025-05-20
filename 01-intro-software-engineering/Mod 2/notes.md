@@ -4,6 +4,8 @@
 - [x] Overview
 - [x] Front-End Development
 - [x] Back-End Development
+- [x] Frameworks / Libraries / Tools / APIs
+- [x] Teams / Squads
 
 # Notes
 
