@@ -84,10 +84,10 @@
  - squads may practice in pair programming
 
 - Pair Programming
- - 2 devs / 1 computer - work side by side on one computer either physically or shared screens /virtually
- - type of agile dev technique
- - styles: driver / navigator - driver types the code - nav review code as it's written
-  - ping pong style: dev 1 writes the test, dev 2 writes code to pass the test, swap roles regularly
+  - 2 devs / 1 computer - work side by side on one computer either physically or shared screens /virtually
+  - type of agile dev technique
+  - styles: driver / navigator - driver types the code - nav review code as it's written
+- ping pong style: dev 1 writes the test, dev 2 writes code to pass the test, swap roles regularly
   - Strong style - pair a junior with experience dev. Senior is the navigator. Junior learns and driverr
- - benefits: shared knowledge, build soft skills, fewer typos/bugs/logical errors, code review on the fly, identify optimal solution early on, overall effeciency
- - Challenges: long periods of focus/exhausting, personal/work commitment issues, one person taking control, personality clash, noisy environment
+  - benefits: shared knowledge, build soft skills, fewer typos/bugs/logical errors, code review on the fly, identify optimal solution early on, overall effeciency
+  - Challenges: long periods of focus/exhausting, personal/work commitment issues, one person taking control, personality clash, noisy environment
