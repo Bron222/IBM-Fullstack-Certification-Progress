@@ -3,6 +3,10 @@
 - [x] Software Engineer vs. Developer
 - [x] SDLC
 - [x] Building Quality Software
+- [x] SE Models
+- [x] Testing / Releases
+- [x] Software versions, testing, and documentation
+- [x] Roles in Development
 
 # Notes
 - Engineer focuses more on design aspects, larger picture
@@ -45,7 +49,7 @@
 
 - Releases:
   - Alpha: first functioning version, may contain errors, design changes may occur, select stakeholders
-  - Beta: all stakeholders, user testing, meets requirements
+  - Beta: all stakeholders, user testing, meets requirements. fully functioning given to select people
   - General Availability: Stable, all users
  
 - Documenting:
