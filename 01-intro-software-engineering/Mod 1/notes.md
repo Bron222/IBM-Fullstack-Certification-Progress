@@ -107,3 +107,14 @@
   - Types of SOPs: flowchart, hierarchical outline, or step by step instruct.
  
 - docs must be updated with software. ideally developed in the maintenence phase 
+
+## Roles in Dev
+- project manager / scrum master (agile): planning, scheduling, budgeting, allocating personnel, exeucte software plan. Scrum master ensure team success, individual success, prioritize people over process, focused on facilitating communication between all team members
+- stakeholder: users, customers, decision-maker
+- system / software architect: design structure of softare, provide technical support
+- UX designer: balance interface with robustness vs functionality of the user experience
+- developer: make the software
+- Tester / QA engineer: ensure quality and adherence to requirements
+- Site reliability engineer: bridges software dev and operation with infrastructure, automate process, ensure reliability
+- Product manager / owner: understands requirements and user needs, leads dev efforts, ensure product provides value to customer
+- Technical writer / info developer: writes docs for the end-user, geared towards non-tech audience. user manuals, reports, white papers, press releases
