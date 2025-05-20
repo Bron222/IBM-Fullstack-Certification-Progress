@@ -4,11 +4,11 @@
 - [x] SDLC
 - [x] Building Quality Software
 
-## Notes
+# Notes
 - Engineer focuses more on design aspects, larger picture
 - Developer focuses on feature management
 
-# SDLC
+## SDLC
 - SDLC phases: 1. Planning 2. Design 3. Development 4. Testing 5. Deloyment 6. Maintenance
 - Planning: requirement are gathered, analyzed, documented, prioritized. 
   - May produce prototypes to get requirements. 
@@ -52,7 +52,7 @@
   - system docs - explains how the system works, maintenance, README files, inline comments, arch and design, (technical documents)
   - User docs - user guides, instructional vids, manuals, online and inline help (non tech docs)
 
-# Models of Software development
+## Models of Software development
 - Waterfall method
 
 - v-shaped model - sequential like waterfall. 
@@ -63,7 +63,7 @@
   - plan, design, develop, test, deploy, feedback, back to plan again. Sprint demo happens to show stakeholders
   - MVP - minimum viable product - developed so stakeholders can give feedback
 
-  # Software versions
+## Software versions
   - version numbers - vary in length and meaning
   - indicated when it was released, if it was updated, patched, etc.
   - betas can be before one 0.9
@@ -75,7 +75,7 @@
     - 4: indicated build numbers, dates, less sigificant changes
   - in about section of software
 
-# Software testing
+## Software testing
 - functional testing: black box testing - testing without touching the code. only concerened with input and outputs of the test. can be manual or automated. testing the application, system under test (SUT)
 - non-functional testing: tests performance, security, scallability, availability
   - how does it the software behave under stress, what happens when many users log in at once, are instructions consistent with behavior
@@ -87,3 +87,23 @@
   - integration: seeks erros with two modules are combined. other kind of black box testing. Occurs after integrated to system to ensure bugs don't occur
   - system: occurs after integration testing and is conducted on a complete integrated system to ensure the system meets all requirements, validates it as a completed product, completed in a staging environment
   - acceptance: formal testing with respect to users, customers, and stakeholder to meet their requirements and needs
+
+## Software documentation
+- can be written, video, or graphical
+- Product doc. relates to product functionality
+- Process doc. describes how to complete a task
+
+- Product documentation
+ - requirements: written during planning phase. intended for dev team. describes system and software requirements and user acceptance specifications
+ - design: written by software architects to describe how the software will be built to meet requirements. conceptual and tech design docs
+ - technical: comments written in code to help devs understand the code, and working papers that explain code behavior
+ - QA: all documents that pertain to testing. test plans, data scenarios, strategies, traceability matrices
+ - User: intended for end users to use/troubleshoot application
+
+- SOP Standard operating procedures:
+  - accompanies process docs
+  - step by step instruct. on how to accomplish common yet complex tasks that is oprganization specific
+  - ex: organization specific instructions for check in code to a repository
+  - Types of SOPs: flowchart, hierarchical outline, or step by step instruct.
+ 
+- docs must be updated with software. ideally developed in the maintenence phase 
