@@ -190,6 +190,8 @@ Python: Pip, Conda
 
 ## HANDS-ON LAB
 - used Skills Network Cloud IDE to create and run a simple Python app
+ - In this lab, you will become familiar with using an Integrated Development Environment (IDE). The IDE that you will be using is called Skills Network Cloud IDE which is based on an open-source project called Theia. This IDE is very similar to the popular Visual Studio (VS) Code IDE. In this lab, you will explore the IDE and use it to create and run a simple Python application. You will create a code file, save it, and edit it to make changes.
+
 
 
 
