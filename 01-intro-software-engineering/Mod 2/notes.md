@@ -141,16 +141,16 @@
 - metadata
 - Once bundles into package, use PACKAGE MANAGER to distrubte it
 - Package Managers - make working with packages easier, coordinate with file archivers to extract package archives, verify checksums and digital certs to ensure integrity and authenticity, locate/download/install/update existing software from a software repository, manage dependencies to ensure a package is installed with all packages it requires
-Linux examples of package managers:
-- ex: Debian Package Management System (DPKG)
-- Red Hat Package Manager (RPM)
-Windows:
-- Chocolately
-Android:
-- Package Manager
-MacOS
-- Homebrew
-- MacPorts
+- Linux examples of package managers:
+  - ex: Debian Package Management System (DPKG)
+  - Red Hat Package Manager (RPM)
+- Windows:
+  - Chocolately
+- Android:
+  - Package Manager
+- MacOS
+  - Homebrew
+  - MacPorts
 
 - Libraries and uitility code are managed with cloud app package managers
 Node.js/JS: npm
