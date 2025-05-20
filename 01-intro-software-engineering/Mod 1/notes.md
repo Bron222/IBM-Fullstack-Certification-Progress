@@ -1,5 +1,4 @@
-# Notes for 01 Intro Software Engineering
-
+# Notes for mod 1
 ## ✅ Topics Covered
 - [x] Software Engineer vs. Developer
 - [x] SDLC
@@ -9,7 +8,7 @@
 - Engineer focuses more on design aspects, larger picture
 - Developer focuses on feature management
 
-
+#SDLC
 - SDLC phases: 1. Planning 2. Design 3. Development 4. Testing 5. Deloyment 6. Maintenance
 - Planning: requirement are gathered, analyzed, documented, prioritized. 
   - May produce prototypes to get requirements. 
@@ -52,3 +51,15 @@
 - Documenting:
   - system docs - explains how the system works, maintenance, README files, inline comments, arch and design, (technical documents)
   - User docs - user guides, instructional vids, manuals, online and inline help (non tech docs)
+
+# Models of Software development
+- Waterfall method
+
+- v-shaped model - sequential like waterfall. 
+  - plan, system design, architecture design, module design, coding (the point of the V), unit testing integration testing, system testing, acceptance testing
+  - verification going down to coding, then up with validation
+
+  - agile - iterative approach. teams work in cycles with sprints with tesing during for assurance.
+    - plan, design, develop, test, deploy, feedback, back to plan again. Sprint demo happens to show stakeholders
+    - MVP - minimum viable product - developed so stakeholders can give feedback
+  
