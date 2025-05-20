@@ -8,7 +8,7 @@
 - Engineer focuses more on design aspects, larger picture
 - Developer focuses on feature management
 
-#SDLC
+# SDLC
 - SDLC phases: 1. Planning 2. Design 3. Development 4. Testing 5. Deloyment 6. Maintenance
 - Planning: requirement are gathered, analyzed, documented, prioritized. 
   - May produce prototypes to get requirements. 
@@ -59,7 +59,31 @@
   - plan, system design, architecture design, module design, coding (the point of the V), unit testing integration testing, system testing, acceptance testing
   - verification going down to coding, then up with validation
 
-  - agile - iterative approach. teams work in cycles with sprints with tesing during for assurance.
-    - plan, design, develop, test, deploy, feedback, back to plan again. Sprint demo happens to show stakeholders
-    - MVP - minimum viable product - developed so stakeholders can give feedback
-  
+- agile - iterative approach. teams work in cycles with sprints with tesing during for assurance.
+  - plan, design, develop, test, deploy, feedback, back to plan again. Sprint demo happens to show stakeholders
+  - MVP - minimum viable product - developed so stakeholders can give feedback
+
+  # Software versions
+  - version numbers - vary in length and meaning
+  - indicated when it was released, if it was updated, patched, etc.
+  - betas can be before one 0.9
+  - some use dates in versioning
+  - semanitc numbering has 4 parts
+    - 1: major software changes
+    - 2: minor changes (possibly updates)
+    - 3: patches or bug fixes
+    - 4: indicated build numbers, dates, less sigificant changes
+  - in about section of software
+
+# Software testing
+- functional testing: black box testing - testing without touching the code. only concerened with input and outputs of the test. can be manual or automated. testing the application, system under test (SUT)
+- non-functional testing: tests performance, security, scallability, availability
+  - how does it the software behave under stress, what happens when many users log in at once, are instructions consistent with behavior
+  - does it behave the same in diferent OS
+- Regression testing: tests if bug fixes don't break the application, occurs after fixes occur
+
+- TESTING LEVELS
+  - Unit: test a moduke of code, tested during dev phase, eliminatate construction erros before integration with other modules
+  - integration: seeks erros with two modules are combined. other kind of black box testing. Occurs after integrated to system to ensure bugs don't occur
+  - system: occurs after integration testing and is conducted on a complete integrated system to ensure the system meets all requirements, validates it as a completed product, completed in a staging environment
+  - acceptance: formal testing with respect to users, customers, and stakeholder to meet their requirements and needs
