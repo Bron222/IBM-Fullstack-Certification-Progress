@@ -37,20 +37,20 @@
   - assembly translated by an assembler using mnemonics like: input (INP) output (OUT) load (LDA) store (STA) add (ADD)
 
 - Query Lang
- - request send to a database 
- - SQL, AQL, CQL datalog, DMX
- - CRUD: create read update delete
+   - request send to a database 
+   - SQL, AQL, CQL datalog, DMX
+   - CRUD: create read update delete
 
  - NoSQL
-  - (Not Only SQL) a non-relational DB, whereas SQL is relational
+    - (Not Only SQL) a non-relational DB, whereas SQL is relational
 
  - query statements
-  - select, where, order by, update, insert into, alter table, create, drop, sum, count, avg
-  - SELECT * FROM table_name;
+    - select, where, order by, update, insert into, alter table, create, drop, sum, count, avg
+    - SELECT * FROM table_name;
 
 ## CODE ORGANIZATION METHODS
 - organizing code: Pseudocode vs Flowcharts
-- FlowChart programs include: Microsoft Visio, Lucidchart, Draw.io, DrawAnywhere
+    - FlowChart programs include: Microsoft Visio, Lucidchart, Draw.io, DrawAnywhere
 
 
 
