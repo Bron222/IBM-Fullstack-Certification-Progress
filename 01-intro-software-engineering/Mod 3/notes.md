@@ -7,6 +7,7 @@
 - [x] Programming logic and structures
 - [x] Functions
 - [x] Objects
+- [x] Lab
 
 
 
