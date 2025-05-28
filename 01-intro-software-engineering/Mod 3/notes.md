@@ -90,7 +90,7 @@
     - call the function
     - delcare a function (some cases like c, c++)
  
--OBJECTS
+- OBJECTS
   - used in OOP
   - contain data in the form of attributes, and code in the form of procedures (methods)
 
