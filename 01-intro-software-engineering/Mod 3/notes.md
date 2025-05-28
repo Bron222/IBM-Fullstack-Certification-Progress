@@ -53,6 +53,7 @@
     - SELECT * FROM table_name;
 
 - CODE ORGANIZATION METHODS
+    - readability, maintainability, and scalability
     - organizing code: Pseudocode vs Flowcharts
         - FlowChart programs include: Microsoft Visio, Lucidchart, Draw.io, DrawAnywhere
 
