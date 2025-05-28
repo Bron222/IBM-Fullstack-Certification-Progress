@@ -48,3 +48,17 @@
 ![image](https://github.com/user-attachments/assets/8126b239-51f8-409d-a49c-05ce349280de)  
 
 - subclasses: inheret the data/methods of their parent classes (the superclass)
+
+## Architectures
+- Peer-to-peer: arch consists of a decentralized network of nodes that behave as both client and server
+- Microservices: archs have apps composed of several loosely coupled services that communicate using APIs
+- Event-driven: archs have consumers that send requests to producers
+- two-tier: have clients that commnciates with a server
+- three-tier: consist of 3 tiers - presentation, application, and data  
+
+![image](https://github.com/user-attachments/assets/277099c5-fb37-4818-a43b-f58844425b30)  
+![image](https://github.com/user-attachments/assets/c2688cab-cb33-417a-8100-d32219cec200)  
+![image](https://github.com/user-attachments/assets/4fdeabee-45e9-4f19-9988-05ae67101326)
+![image](https://github.com/user-attachments/assets/b3ddaa03-dbb3-4c2c-a58f-fe5f1db2763e)
+![image](https://github.com/user-attachments/assets/d354fec9-7d86-4ec4-93bf-607968018d97)
+
