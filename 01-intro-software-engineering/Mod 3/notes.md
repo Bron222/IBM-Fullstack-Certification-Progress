@@ -5,6 +5,8 @@
 - [x] High lang vs low lang
 - [x] database lang
 - [x] Programming logic and structures
+- [x] Functions
+- [x] Objects
 
 
 
@@ -90,9 +92,9 @@
     - call the function
     - delcare a function (some cases like c, c++)
  
-- OBJECTS
-  - used in OOP
-  - contain data in the form of attributes, and code in the form of procedures (methods)
+## OBJECTS
+- used in OOP
+- contain data in the form of attributes, and code in the form of procedures (methods)
 
 
 
