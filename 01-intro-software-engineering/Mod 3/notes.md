@@ -48,9 +48,9 @@
     - select, where, order by, update, insert into, alter table, create, drop, sum, count, avg
     - SELECT * FROM table_name;
 
-## CODE ORGANIZATION METHODS
-- organizing code: Pseudocode vs Flowcharts
-    - FlowChart programs include: Microsoft Visio, Lucidchart, Draw.io, DrawAnywhere
+- CODE ORGANIZATION METHODS
+    - organizing code: Pseudocode vs Flowcharts
+        - FlowChart programs include: Microsoft Visio, Lucidchart, Draw.io, DrawAnywhere
 
 
 
