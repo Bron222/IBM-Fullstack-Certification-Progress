@@ -1,4 +1,4 @@
-# Notes for Mod 2: Web and Cloud Development
+# Notes for Mod 4: Software Architecture, Design, and Patterns
 
 ## ✅ Topics Covered
 - [x] Overview
