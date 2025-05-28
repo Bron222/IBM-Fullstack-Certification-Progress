@@ -4,13 +4,14 @@
 - [x] Interpreted and Compiled Languages
 - [x] High lang vs low lang
 - [x] database lang
+- [x] Programming logic and structures
 
 
 
 
 # Notes
 
-## Programming Language
+## Programming Languages
 - interpreted Lang
   - scripting lang.
   - operates through interpreter on comp or browser
@@ -52,9 +53,31 @@
     - organizing code: Pseudocode vs Flowcharts
         - FlowChart programs include: Microsoft Visio, Lucidchart, Draw.io, DrawAnywhere
 
+## Programming Logic and Constructs
+- boolean logic: true / false
+- variables: value that can change
+- braching logic:
+    - decision making, no limit to complex branching
+- if/then/else statement, switch statement (selection control construct), loop
+- loops: for loop, while loop, do-while (exit controlled loop) loop
 
-
-
+- identifiers: store value, method, interfaces, classes
+    - constant or variable
+        - contants are defined when declared
+        - easy of readability, only need to change in one place
+        - Variable: can change; best for values that is unknown to you
+        - containers: special type of indentifier to reference multiple program elements
+            - no need to create a variable for every  element
+            - faster and more effecient
+            - Arrrys and Vectors
+                - Array:
+                - fixed number of elements stored in sequental order, starting at 0
+                - specify the max number of elements it can contain
+                - int my_array [50];
+            - Vector:
+                - dynamic size, change sizes when adding or subtracting elements; "dynamic arrays"
+                - take up more memory than array, and longer to access data within (not store sequentially)
+                - vector <int> my_vector;
 
 
 
