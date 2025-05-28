@@ -12,29 +12,29 @@
 
 ## Programming Language
 - interpreted Lang
- - scripting lang.
- - operates through interpreter on comp or browser
- - ex: JS, Python, Lua (game scripting), HTML
+  - scripting lang.
+  - operates through interpreter on comp or browser
+  - ex: JS, Python, Lua (game scripting), HTML
 - Compiled Lang
- - programs are packaged/compiled into 1 executable file, usually larger, often used locally on a computer
- - programming lang
- - run faster and more repeatablyi
- - ex: C, C++, C#, Java
+  - programs are packaged/compiled into 1 executable file, usually larger, often used locally on a computer
+  - programming lang
+  - run faster and more repeatablyi
+  - ex: C, C++, C#, Java
 
 - High level langs
- - more sophisticated
- - common English
- - ex: SQL (Structured Query Language), Pascal, Python
+  - more sophisticated
+  - common English
+  - ex: SQL (Structured Query Language), Pascal, Python
 
 - Low level langs
- - more sophisticated
- - used simple symbols to represent machine code (0s and 1s)
- - assembly: closely tied to CPU architecture; each CPU type has its own assembly lang
- - ex: ARM, MIPS, X86
- - simple readable format, entered one line at a time, one statement per line
- - {label} mnemonic {operand list} {;comment}
- - mov TOTAL, 212
- - assembly translated by an assembler using mnemonics like: input (INP) output (OUT) load (LDA) store (STA) add (ADD)
+  - more sophisticated
+  - used simple symbols to represent machine code (0s and 1s)
+  - assembly: closely tied to CPU architecture; each CPU type has its own assembly lang
+  - ex: ARM, MIPS, X86
+  - simple readable format, entered one line at a time, one statement per line
+  - {label} mnemonic {operand list} {;comment}
+  - mov TOTAL, 212
+  - assembly translated by an assembler using mnemonics like: input (INP) output (OUT) load (LDA) store (STA) add (ADD)
 
 - Query Lang
  - request send to a database 
