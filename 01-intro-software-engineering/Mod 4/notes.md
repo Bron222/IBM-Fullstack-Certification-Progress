@@ -4,6 +4,7 @@
 - [x] Overview
 - [x] Software Design and Modeling
 - [x] OOAD
+- [x] Architectures
 
 
 
@@ -60,5 +61,11 @@
 ![image](https://github.com/user-attachments/assets/c2688cab-cb33-417a-8100-d32219cec200)  
 ![image](https://github.com/user-attachments/assets/4fdeabee-45e9-4f19-9988-05ae67101326)
 ![image](https://github.com/user-attachments/assets/b3ddaa03-dbb3-4c2c-a58f-fe5f1db2763e)
-![image](https://github.com/user-attachments/assets/d354fec9-7d86-4ec4-93bf-607968018d97)
+![image](https://github.com/user-attachments/assets/d354fec9-7d86-4ec4-93bf-607968018d97)  
 
+## App Arch
+
+- Components:
+![image](https://github.com/user-attachments/assets/b799057b-9f0c-44f4-8e18-fdd8e8623921)  
+
+- component examples: API, Data Access Object, Controller
