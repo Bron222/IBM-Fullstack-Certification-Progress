@@ -79,7 +79,19 @@
                 - take up more memory than array, and longer to access data within (not store sequentially)
                 - vector <int> my_vector;
 
-
+## Function
+- structured modular code that is reusable.
+    - also called methods, procedures, subroutines, modules
+- types of functions
+    - standard library functions - built in functions
+    - user identified functions
+- using functions
+    - define the function
+    - call the function
+    - delcare a function (some cases like c, c++)
+ 
+-objects
+    - part of OOP
 
 
 
