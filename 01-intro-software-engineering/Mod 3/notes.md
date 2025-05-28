@@ -1,4 +1,4 @@
-# Notes for Mod 2: Web and Cloud Development
+# Notes for Mod 3: Basics of Programming
 
 ## ✅ Topics Covered
 - [x] Interpreted and Compiled Languages
