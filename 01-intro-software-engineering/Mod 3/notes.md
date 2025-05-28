@@ -81,7 +81,7 @@
                 - take up more memory than array, and longer to access data within (not store sequentially)
                 - vector <int> my_vector;
 
-## Function
+## Functions
 - structured modular code that is reusable.
     - also called methods, procedures, subroutines, modules
 - types of functions
@@ -94,7 +94,9 @@
  
 ## OBJECTS
 - used in OOP
-- contain data in the form of attributes, and code in the form of procedures (methods)
+- contain data in the form of attributes, and code in the form of procedures/behaviors (methods)
+- packages data structure togther
+- fields (variables), methods (functions)
 
 
 
