@@ -1,4 +1,5 @@
-# Notes for mod 1
+# Notes for mod 1: SDLC  
+
 ## ✅ Topics Covered
 - [x] Software Engineer vs. Developer
 - [x] SDLC
