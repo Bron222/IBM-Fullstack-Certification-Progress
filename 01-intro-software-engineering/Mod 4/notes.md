@@ -10,6 +10,7 @@
 # Notes
 
 ## Software Architecture and Design
+
 - why is it important?
     - communication, earliest deign decisions, flexibility, increases lifespan
  
