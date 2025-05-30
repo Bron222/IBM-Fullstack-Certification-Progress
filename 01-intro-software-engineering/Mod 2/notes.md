@@ -7,7 +7,7 @@
 - [x] Frameworks / Libraries / Tools / APIs
 - [x] Teams / Squads
 - [x] CI/CD / Packages
-- [x] Hand-on Lab
+- [x] Hands-on Lab
 
 
 
