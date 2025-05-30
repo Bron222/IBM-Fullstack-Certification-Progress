@@ -51,6 +51,7 @@
 - subclasses: inheret the data/methods of their parent classes (the superclass)
 
 ## Architectures
+- are not mutually exclusive entirely. can be combined to a degree given the restraints of logic
 - Peer-to-peer: arch consists of a decentralized network of nodes that behave as both client and server
 - Microservices: archs have apps composed of several loosely coupled services that communicate using APIs
 - Event-driven: archs have consumers that send requests to producers
@@ -58,24 +59,31 @@
 - three-tier: consist of 3 tiers - presentation, application, and data  
 
 ![image](https://github.com/user-attachments/assets/277099c5-fb37-4818-a43b-f58844425b30)  
+
+- Microservices are an approach to building an application that breaks its functionality into modular components called services. An application programming interface, also called an API, is the part of an application that communicates with other applications. An API defines how two applications share and modify each other’s data. APIs can be used to create a microservices-based architecture. The API Gateway routes the API from the client to a service. Orchestration handles communication between services.
+    - ex: social media sites
+
 ![image](https://github.com/user-attachments/assets/c2688cab-cb33-417a-8100-d32219cec200)  
 
-- nodes share resources among each other
+- Peer 2 Peer: nodes share resources among each other
 - useful for file sharing, collaboration, Instant messageing, and high performance computing
+    - ex: Cyrptocurrency
 
 ![image](https://github.com/user-attachments/assets/4fdeabee-45e9-4f19-9988-05ae67101326)
 
 - 2 Tier: server hosts most of the resources to one or more clients over a network
+    - ex: messaging apps, DB clients connecting with DB servers
 
 ![image](https://github.com/user-attachments/assets/b3ddaa03-dbb3-4c2c-a58f-fe5f1db2763e)  
 
 - event: anything that results in a change of state. action that is triggered by end-user or the program.
 - Event-driven architecture focuses on producers and consumers of events. Producers listen for and react to triggers while consumers process an event. The producer publishes the event to an event router. The router determines which consumer to push the event to. The triggering event generates a message, called an event notification, to the consumer which is listening for the event. The components in event-driven architectures are loosely coupled making the pattern appropriate for use with modern, distributed systems.
+    - Ride sharing app
 
 ![image](https://github.com/user-attachments/assets/d354fec9-7d86-4ec4-93bf-607968018d97)  
 
 - 3 Tier (N-Tier): most common - The 3-tier architecture is composed of several horizontal tiers that function together as a single unit of software. A tier only communicates with other tiers located directly above and below it. Related components are placed within the same tier. Changes in one tier do not affect the other tier.
-
+    - ex: web apps: a web server for processing UI, app server to process user input, and DB server for data management
 ## App Arch
 
 - Components:
