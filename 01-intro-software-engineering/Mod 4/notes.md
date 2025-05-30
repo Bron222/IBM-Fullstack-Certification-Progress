@@ -83,7 +83,17 @@
 ![image](https://github.com/user-attachments/assets/d354fec9-7d86-4ec4-93bf-607968018d97)  
 
 - 3 Tier (N-Tier): most common - The 3-tier architecture is composed of several horizontal tiers that function together as a single unit of software. A tier only communicates with other tiers located directly above and below it. Related components are placed within the same tier. Changes in one tier do not affect the other tier.
-    - ex: web apps: a web server for processing UI, app server to process user input, and DB server for data management
+    - ex: web apps: a web server for processing UI, app server to process user input, and DB server for data management  
+   
+
+    - presentation tier: user view
+    - (firewall starts here)
+    - web tier: web load balancer
+    - app server tier: app load balancer / proxy server - routes to different app servers
+    - DB tier: now the directed app requests data from the DB server \
+    - (firewall ends here)
+ 
+
 ## App Arch
 
 - Components:
@@ -104,3 +114,24 @@
 
 - Nodes:
 ![image](https://github.com/user-attachments/assets/e5ef1dfa-58b3-431b-bffe-cc2c2866bf78)  
+
+## Application enviroments
+![image](https://github.com/user-attachments/assets/73f828fc-1ffb-4a1c-8a82-a05ad36308b4)  
+![image](https://github.com/user-attachments/assets/500a4b0d-8e52-4a3a-9917-23422c80d3cb)
+![image](https://github.com/user-attachments/assets/8a25af01-f5a7-4111-8f8c-347d7c865359)
+![image](https://github.com/user-attachments/assets/1d83e67c-3cde-4a48-bd67-5fd38b47f2f5)
+
+## Production Deployment Components
+
+![image](https://github.com/user-attachments/assets/91025c5f-b92f-4be0-9f06-d498eaf2cf95)
+
+- firewall: monitors traffic between int and out of networks. permits or blocks data base on set of rules. barrier between networks to block viruses and hackers from accessing internal network
+- load balancer: directs netowrk traffic efficiently amongst multi servers
+    - prevents overloading of servers
+
+![image](https://github.com/user-attachments/assets/d1225282-e3f6-487f-bbbe-369c55c79087)
+
+- proxy server:
+![image](https://github.com/user-attachments/assets/f5b2601f-247f-4bb5-b273-8453da85746a)
+
+
