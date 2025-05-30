@@ -59,6 +59,10 @@
 
 ![image](https://github.com/user-attachments/assets/277099c5-fb37-4818-a43b-f58844425b30)  
 ![image](https://github.com/user-attachments/assets/c2688cab-cb33-417a-8100-d32219cec200)  
+
+- nodes share resources among each other
+- useful for file sharing, collaboration, Instant messageing, and high performance computing
+
 ![image](https://github.com/user-attachments/assets/4fdeabee-45e9-4f19-9988-05ae67101326)
 
 - 2 Tier: server hosts most of the resources to one or more clients over a network
