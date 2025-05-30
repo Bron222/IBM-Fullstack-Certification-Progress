@@ -1,18 +1,22 @@
-# Notes for 03 Html Css Javascript
+# Notes for mod 5: Software Engineering
 
 ## ✅ Topics Covered
 - [ ] 
 
-## 🧠 Key Takeaways
-- 
+#  Notes
 
-## 🧪 Projects This Week
-- [ ] Project Name
-- [ ] Challenges
+## Roles
 
-## ⌛ Time Spent
-| Date | Hours | Focus |
-|------|-------|-------|
+- Junior
+- Senior
 
-## 💡 Resources
-- 
+- Daily routine: 
+- check messages about status of code merge request and get feedback from mentor
+
+
+-Stand up meetings: 
+
+
+
+
+
