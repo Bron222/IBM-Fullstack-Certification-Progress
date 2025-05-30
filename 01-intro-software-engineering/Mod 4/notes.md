@@ -68,15 +68,18 @@
 - Components:
 ![image](https://github.com/user-attachments/assets/b799057b-9f0c-44f4-8e18-fdd8e8623921)  
 
-- component examples: API, Data Access Object, Controller  
+    - component examples:
+        - API, Data Access Object, Controller  
 
-- services: designed to be deployed independently and resused by multiple systems. Solution to a business need. Has one uniques, always running instance with whom multplie clients communicate
-        - ex: checking a customer's credit, calc monthly loan payment, processing application
-        - Service-oriented architecture: loosley coupled services that communicate over a network  
+- services:
+    - designed to be deployed independently and resused by multiple systems. Solution to a business need. Has one uniques, always running instance with whom multplie clients communicate
+    - ex: checking a customer's credit, calc monthly loan payment, processing application
+    - Service-oriented architecture: loosley coupled services that communicate over a network  
 
-- Distrubted system: multiple services located on different machine and coordinate interactions via a communication protocol (such as HTTP). Appears tot he end-user as a single coherent system
-        - characteristics: shared resources, fault-tolerant, multi-activities run concurrently, scalable, runs on a variety of comp (doesn't need same hardware or OS), programmed in various langs.
-        - use 1 or more of these archs: client-server, Peer2Peer, 3Tier, microservices 
+- Distrubted system:
+    - multiple services located on different machine and coordinate interactions via a communication protocol (such as HTTP). Appears tot he end-user as a single coherent system
+    - characteristics: shared resources, fault-tolerant, multi-activities run concurrently, scalable, runs on a variety of comp (doesn't need same hardware or OS), programmed in various langs.
+    - use 1 or more of these archs: client-server, Peer2Peer, 3Tier, microservices 
 
 - NODE:
 ![image](https://github.com/user-attachments/assets/e5ef1dfa-58b3-431b-bffe-cc2c2866bf78)  
