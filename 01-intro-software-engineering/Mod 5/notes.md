@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Notes for Mod 4: Software Architecture, Design, and Patterns
+=======
+# Notes for mod 5: Software Engineering
+>>>>>>> 75d3029a2a7ec1b7a26b95465021cecfc63146e1
 
 ## ✅ Topics Covered
 - [x] Overview
@@ -6,6 +10,7 @@
 - [x] OOAD
 - [x] Architectures
 
+<<<<<<< HEAD
 
 
 
@@ -135,3 +140,22 @@
 ![image](https://github.com/user-attachments/assets/f5b2601f-247f-4bb5-b273-8453da85746a)
 
 
+=======
+#  Notes
+
+## Roles
+
+- Junior
+- Senior
+
+- Daily routine: 
+- check messages about status of code merge request and get feedback from mentor
+
+
+-Stand up meetings: 
+
+
+
+
+
+>>>>>>> 75d3029a2a7ec1b7a26b95465021cecfc63146e1
