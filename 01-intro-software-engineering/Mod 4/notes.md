@@ -67,7 +67,11 @@
 
 - 2 Tier: server hosts most of the resources to one or more clients over a network
 
-![image](https://github.com/user-attachments/assets/b3ddaa03-dbb3-4c2c-a58f-fe5f1db2763e)
+![image](https://github.com/user-attachments/assets/b3ddaa03-dbb3-4c2c-a58f-fe5f1db2763e)  
+
+- event: anything that results in a change of state. action that is triggered by end-user or the program.
+- Event-driven architecture focuses on producers and consumers of events. Producers listen for and react to triggers while consumers process an event. The producer publishes the event to an event router. The router determines which consumer to push the event to. The triggering event generates a message, called an event notification, to the consumer which is listening for the event. The components in event-driven architectures are loosely coupled making the pattern appropriate for use with modern, distributed systems.
+
 ![image](https://github.com/user-attachments/assets/d354fec9-7d86-4ec4-93bf-607968018d97)  
 
 - 3 Tier (N-Tier): most common - The 3-tier architecture is composed of several horizontal tiers that function together as a single unit of software. A tier only communicates with other tiers located directly above and below it. Related components are placed within the same tier. Changes in one tier do not affect the other tier.
