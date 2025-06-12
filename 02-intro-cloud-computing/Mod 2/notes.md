@@ -117,3 +117,51 @@
 ![image](https://github.com/user-attachments/assets/a83e984f-58aa-41fb-8874-507408ce4a8c)
 
 ### Private Cloud model
+
+- exclusively used by a single organization with multiple consumers
+- owned, managed and operated by organizations, 3rd party, or combination
+- can be external or internally hosted
+  - external: private cloud, but hosted by a service provider
+    - VPC (virtual private cloud) - a private cut of the public cloud
+  - internal: manaaged by the organization
+
+![image](https://github.com/user-attachments/assets/9a2ba34d-6083-47e9-8964-abab616fc383)
+  
+![image](https://github.com/user-attachments/assets/6d32d80e-d55b-43d5-b228-14f450f27f67)
+
+### Hybrid Cloud model
+
+- connects an organizations' on-premise private cloud and 3rd party public cloud
+- workloads hosted in either public or private cloud depending on needs
+  - flexibility
+  - workloads move freely
+  - leverage public and private clouds: when you need to temporarily expand your private cloud resources, you can utilize the public cloud to help (like during a surge). This is called "Cloud Bursting"
+  
+![image](https://github.com/user-attachments/assets/bddef5f9-8165-4d01-b947-10b477fa2dc4)
+  
+![image](https://github.com/user-attachments/assets/857e9b15-fb66-4aae-a2ae-ca679e8ace90)
+
+![image](https://github.com/user-attachments/assets/3958cde8-35d3-4d44-80a1-98ff8ab8f83e)
+
+![image](https://github.com/user-attachments/assets/5ac742dd-393d-4352-b10e-856972afff32)
+
+### Community Cloud model
+- Cloud infrastructure [that] is provisioned for exclusive use by a specific community of consumers from organizations that have shared concerns (e.g., mission, security requirements, policy, and compliance considerations). It may be owned, managed, and operated by one or more of the organizations in the community, a third party, or some combination of them, and it may exist on or off premises
+  
+- Why community cloud?
+  - Community cloud approach is used by organizations for the following reasons:
+
+  - The community cloud members work under the same set of security controls.
+
+  -  The approach provides the members the same attributes like citizenship and authorization controls while giving limited physical and/or logical access to resources.
+
+  - It also supports data localization and some data sovereignty requirements based on the location of the community cloud’s data centers. 
+
+  - The approach defines a perimeter security model encompassing the community cloud.
+  
+- Benefits of a software-defined community cloud
+  - The approach Google Cloud has taken brings multiple benefits such as meeting security and compliance requirements.
+  - New hardware, new services, and improvements to existing services are accessed faster than in traditional community clouds.
+  - The process by which new cloud technology can be onboarded and made available is also faster.
+  - Overall efficiency is improved in this model due to the scale of infrastructure available to the community; this can translate to improved availability and performance.
+  - Security enhancements can be scaled and implemented more quickly.  
