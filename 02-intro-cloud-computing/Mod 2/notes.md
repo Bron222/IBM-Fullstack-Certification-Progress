@@ -92,3 +92,28 @@
   - data ownership and data safety
   - 3rd party maintains business-critical data
   - needs good network connection
+
+## Deloyment Models
+
+### Public Cloud model
+
+ ![image](https://github.com/user-attachments/assets/d9afc863-55cc-454c-bbf0-e515759c29fa)
+- like water, energy, gas in homes, we don't manage the resources, only pay for our usage
+- public cloud = cost savings
+- in a public cloud pay for the services you use but do not control the computing environment
+- Providers: AWS, Azure, IBM Cloud, Google Cloud, Alibaba Cloud
+  
+- Characteristic of Public Cloud:
+  - virtualized Multi-tenant architecture enabling the tenants or users to share computijng resources
+  - cloud providers pool of resources, including infra, platforms, and software are NOT dedicated for use by a single tenant or organization.
+  - variety of different pay-as-you-go models with different features
+
+![image](https://github.com/user-attachments/assets/77ab3f91-a747-4527-8258-fc1c8a611518)
+  
+- concers: 
+  - security: data breaches, data loss, account hijacking, lack of due dilligence, and system/app vulnerability
+  - Data sovereignty: increasingly difficulty for companies to be compliant with data sov. regulations governing the storage, transfer, and security of data
+ 
+![image](https://github.com/user-attachments/assets/a83e984f-58aa-41fb-8874-507408ce4a8c)
+
+### Private Cloud model
