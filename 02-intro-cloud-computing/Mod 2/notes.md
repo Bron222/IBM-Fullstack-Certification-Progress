@@ -87,3 +87,8 @@
   - spread out software costs over time
    
 ![image](https://github.com/user-attachments/assets/9588273a-7739-4af4-8bac-882ba68f3f0e)
+
+- Concerns:
+  - data ownership and data safety
+  - 3rd party maintains business-critical data
+  - needs good network connection
