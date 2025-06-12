@@ -24,4 +24,16 @@
 - Alibaba Cloud
 - SAP
 
+## Artificial Intellegence on the cloud
+- IoT: internet of things - web enabled devices
+- AI on the cloud: good for IoT devices.
+  - IoT generates data, Cloud consumes the data, AI interprets the data and learns from it
 
+## Block Chain and Analytics on the clou
+![image](https://github.com/user-attachments/assets/482b5188-eaa2-4ea2-a6be-1f2afaabcb4b)
+![image](https://github.com/user-attachments/assets/045c22e8-1f3c-44e7-8962-2d93330fc9ee)
+
+- blockchain records the data and variables that go into an AI algorithm
+- Analytics - cloud provides a good environment for analyzing data
+
+![image](https://github.com/user-attachments/assets/9c377467-463b-4ed0-b014-05b83a4d09f8)
