@@ -63,3 +63,27 @@
   - customers lack control over changes in provider's strategy, offerings, or tools
 
 ## Software as a Service (SaaS)
+
+ - SaaS: cloud offering that provides access to a service provider's cloud-based software
+
+ - Supports:
+  - email and collaboration
+  - CRM - customer relationship management
+  - HRM - human resource management
+  - financial management
+  - billing and collaboration
+   
+- Key characteristics:
+  - Multitenant architecture
+  - easy for users to manage privileges and monitor data use
+  - offers security, compliance, and maintenance
+  - customize applications, but may have limited control
+  - subscription model
+     
+- key Benefits
+  - greatly reduce the time from decision to value
+  - increase workforce prod and eff.
+  - users can access core business apps from anywhere
+  - spread out software costs over time
+   
+![image](https://github.com/user-attachments/assets/9588273a-7739-4af4-8bac-882ba68f3f0e)
