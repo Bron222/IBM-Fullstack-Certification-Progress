@@ -1,4 +1,4 @@
-# Notes for mod 1 of Cloud Computing
+# Notes for section 2 / mod 1: Intro to Cloud Computing
 
 ## Characteristics
 
