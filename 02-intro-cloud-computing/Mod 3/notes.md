@@ -1,18 +1,23 @@
-# Notes for 05 React Frontend
+# Notes for sec 2 mod 5: Cloud Infrastructure
 
-## ✅ Topics Covered
-- [ ] 
+## Infrastructure Overview
+- is the foundation of the cloud. This layer consists of physical resources that are housed in Regions, Zones and Data Centers.
+- A Cloud provider’s IT environment is typically distributed across many Regions around the world.
+- A cloud Region, is a geographic area or location where a Cloud provider’s infrastructure is clustered, and may have names like NA South or US East.
+- Each Cloud Region can have multiple Zones (or Availability Zones or AZ for short), which are typically distinct Data Centers with their own power, cooling and networking resources.
+- Computing resources
+  - Virutal servers - (VMs) Software based servers
+  - Bare Metal Servers - Physical Servers
+  - "Serverless" - Abstraction layer on top of VMs
+- Networking:
+  - Routers
+  - Switches
+  - SDN - Software Defined Networking: options where certain networking resources are virtualized or made available programmatically, through APIs.
+- Public vs Private Interfaces
+- Networking: ACLs, Security Groups, VLANs, VPC, VPNs, Gateways, load balancers, firewalls, subnets, IP addresses, traffic analyzers, CDNs (content delivery networks; distribute content from multiple points around the world "like 'edge' networks in AWS")
 
-## 🧠 Key Takeaways
-- 
+## Virtualization and Virtual Machines
 
-## 🧪 Projects This Week
-- [ ] Project Name
-- [ ] Challenges
-
-## ⌛ Time Spent
-| Date | Hours | Focus |
-|------|-------|-------|
-
-## 💡 Resources
-- 
+![image](https://github.com/user-attachments/assets/edfa631c-9910-44fe-86ed-0c20c4ddae61)
+- Hypervisor type 1: bare metal - runs directly on top of the resources (most common and effecient)
+- Hypervisor type 2: hosted - runs on top of an OS (like VirtualBox; mostly used by end users)
