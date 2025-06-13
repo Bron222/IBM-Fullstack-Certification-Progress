@@ -52,3 +52,17 @@
 - often used to meet compliance, laws, and lisencing terms
 
 ## Bare Metal Servers
+- is a single tenant, dedicated physical server. In other words, it's dedicated to a single customer.
+- The Cloud provider actually takes the physical server and plugs it into a rack in a data center for customers.
+- The Cloud provider manages the server up to the OS
+- preconfigured or custom-configured
+- can add GPUs: for accelerating scientific computation, data analytics, and rendering professional grade virtualized graphics
+- take longer to provision
+- tend to be more expensive
+- not all providers grant bare metal servers
+- Characteristic/workloads: no hypervisor required
+![image](https://github.com/user-attachments/assets/d2baf915-6859-4444-9e6d-7eadadf21876)
+- Since there is no sharing underlying server hardware with other customers, bare metal servers fulfill the demanding needs of high-performance computing or HPC, and data intense applications that require minimal latency related delays.
+- These servers also excel in big data analytics applications and GPU-intensive solutions.
+- Some workload examples that bare metal servers satisfy are ERP, CRM, AI, deep learning, and virtualization.
+![image](https://github.com/user-attachments/assets/766ad9b6-e17b-4a78-aa73-2fa1e95bcca6)
