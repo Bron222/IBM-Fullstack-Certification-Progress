@@ -1,4 +1,4 @@
-# Notes for section 2 mod 2: Overview of Cloud Service Models
+# Notes for section 2 / mod 2: Overview of Cloud Service Models
 
 ## 3 Service Models
 - MODELS: from most complex to least complex
