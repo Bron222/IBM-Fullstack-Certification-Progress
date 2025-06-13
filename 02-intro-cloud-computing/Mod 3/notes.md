@@ -161,4 +161,19 @@
 ![image](https://github.com/user-attachments/assets/8fc5b8c0-1383-4d24-9c67-f2c5806bd65e)
 
 ### Object Store - Tiers and APIs
+- buckets are broken into tiers (or classes) depending on how frequently the data is accessed
+![image](https://github.com/user-attachments/assets/742f61ec-2f0b-456e-9764-2fcd71c6016d)
+![image](https://github.com/user-attachments/assets/e20c762a-1490-4a01-9db4-1e9ba41844fb)
+![image](https://github.com/user-attachments/assets/7c71d844-bd8a-4e88-a936-9f9b1d550936)
+![image](https://github.com/user-attachments/assets/c18d1eea-7035-43fd-88e1-400de700f5cc)
+- uses objects metadata to determine when it should be archived
+![image](https://github.com/user-attachments/assets/c6459419-6774-4b52-86fb-9b492c82a6cf)
+![image](https://github.com/user-attachments/assets/af178e1b-479a-4cc2-ac57-9a30db2a9756)
+![image](https://github.com/user-attachments/assets/0d1c42d8-154c-49de-82b9-e4fdecb4e927)
+![image](https://github.com/user-attachments/assets/860c1055-9bd1-462f-819d-2f5b150b41ce)
+![image](https://github.com/user-attachments/assets/afd1e83c-f959-4243-ba64-c2bdf6a95121)
 
+### Content Delivery Network (CDN)
+- just like a AWS edge location.
+- used cached (AKA copies) of website content to user's based on geographic locations, closing the distance between content and end-users.
+![image](https://github.com/user-attachments/assets/82146725-1739-4315-89d7-7f29a8f8ccb4)
