@@ -148,5 +148,12 @@
 
 ## Object Storage
 
+![image](https://github.com/user-attachments/assets/bc3cc0a5-54eb-4119-a9ae-73ba6b4dde5f)
+![image](https://github.com/user-attachments/assets/ed8e3854-8d6d-4f02-bd02-116300bc1fef)
+![image](https://github.com/user-attachments/assets/dcae7146-28ad-4b7d-892f-ae7662990999)
+![image](https://github.com/user-attachments/assets/c1d7b1f7-dbd0-4352-8742-f3685132e712)
+![image](https://github.com/user-attachments/assets/8e5234a6-7be9-402a-99c0-cc36b36c122f)
+- buckets similar to a folder, but cannot be store in other buckets
+![image](https://github.com/user-attachments/assets/a311dd0f-a3d4-483e-a9b8-09fb12547fd3)
 
 
