@@ -155,5 +155,10 @@
 ![image](https://github.com/user-attachments/assets/8e5234a6-7be9-402a-99c0-cc36b36c122f)
 - buckets similar to a folder, but cannot be store in other buckets
 ![image](https://github.com/user-attachments/assets/a311dd0f-a3d4-483e-a9b8-09fb12547fd3)
+- service provider manages resilience and ensures the buckets are highly available
+![image](https://github.com/user-attachments/assets/5c0d05ed-0e38-481e-aa7d-5ef2918f9c43)
+![image](https://github.com/user-attachments/assets/5a275449-2423-4844-b68b-6c584f5833ec)
+![image](https://github.com/user-attachments/assets/8fc5b8c0-1383-4d24-9c67-f2c5806bd65e)
 
+### Object Store - Tiers and APIs
 
