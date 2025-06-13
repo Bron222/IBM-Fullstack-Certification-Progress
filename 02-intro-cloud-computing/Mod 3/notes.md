@@ -112,4 +112,41 @@
 
 - Containers are executable units of software in which application code, its libraries, and its dependences are packaged in a common way, so that it can be run anywhere, from desktops, traditional IT, to the cloud. Containers are more lightweight and consume fewer resources than Virtual Machines, helping streamline the development and deployment of cloud native applications. 
 
-# 
+# Cloud Storage and Content Delivery Network (CDNs)
+
+## Basics of Storage in Cloud
+- Save data files in the cloud
+- Physical storage must connect to a storage node
+- Cloud storage must connect to a public or private connection
+- only pay for what you provision
+- higher the read/write speed, higher the cost per gigabyte storage
+  
+- types of storage:
+![image](https://github.com/user-attachments/assets/288da6b7-fbb2-47a7-8fc7-6d2dd6ce5713)
+  - direct attached: referred to as local storage, within the same rack, fast, normally only for OS. Ephemeral (temporary), not shared with other nodes, its not as resilient
+![image](https://github.com/user-attachments/assets/019e6306-f7fa-45a2-ba74-ad4f1321ca61)
+  - file storage: NFS (network file system) - slower, use ethernet network, cheaper, attach to multiple servers, good for file systems
+![image](https://github.com/user-attachments/assets/cde0a5c2-241d-4bc3-8b71-f05a6c2df471)
+  - block storage: high speed fiber connections, faster read/write, good for DBs, stores in volumes, then mounted on a compute node which it sees as another HD, volumes can normally only be mount on one node at a time. IOPS (input/outputs operations per sec).
+    - persistence (if set that way) when the compute node is ended. Can set to auto delete with the node.
+    - can uses snapshots - fast to create, dont require downtime, record only changes to data, cannot recover individual files
+![image](https://github.com/user-attachments/assets/26394e31-3abd-4a38-b959-118927ee00dd)
+  - object storage: access rather an API (not attached to a compute node). cheapest and slowest read/write, infinite in size to end user, never fills ups (but pay for what you use)
+  
+## File Storage
+![image](https://github.com/user-attachments/assets/d0ac6196-c40b-4ddb-9931-6ae8989468d0)
+![image](https://github.com/user-attachments/assets/33de95a9-3468-4009-b748-eceb70647cb5)
+- traffic and internet bandwidth can vary the speeds
+- usually used where high speeds are not a requirement
+
+## Block Storage
+![image](https://github.com/user-attachments/assets/b7daef1c-f146-429e-9939-6ca858bb0baf)
+![image](https://github.com/user-attachments/assets/37db39e7-c759-4465-be1d-fe064e6cd1ce)
+![image](https://github.com/user-attachments/assets/9d276bbf-459f-45e5-87d5-d6d229e2df6e)
+![image](https://github.com/user-attachments/assets/b820a7a0-82ce-4b38-a471-18cdfbcd6714)
+![image](https://github.com/user-attachments/assets/155f59b9-e57e-4b77-afc6-34b176a9ac44)
+
+## Object Storage
+
+
+
