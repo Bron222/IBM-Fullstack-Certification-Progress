@@ -14,10 +14,41 @@
   - Switches
   - SDN - Software Defined Networking: options where certain networking resources are virtualized or made available programmatically, through APIs.
 - Public vs Private Interfaces
-- Networking: ACLs, Security Groups, VLANs, VPC, VPNs, Gateways, load balancers, firewalls, subnets, IP addresses, traffic analyzers, CDNs (content delivery networks; distribute content from multiple points around the world "like 'edge' networks in AWS")
+- Networking: ACLs, Security Groups, VLANs, VPC, VPNs, Gateways, load balancers, firewalls, subnets, IP addresses, traffic analyzers, CDNs (content delivery networks; distribute content from multiple points around the world "like 'edge connection' networks in AWS")
 
 ## Virtualization and Virtual Machines
 
 ![image](https://github.com/user-attachments/assets/edfa631c-9910-44fe-86ed-0c20c4ddae61)
 - Hypervisor type 1: bare metal - runs directly on top of the resources (most common and effecient)
 - Hypervisor type 2: hosted - runs on top of an OS (like VirtualBox; mostly used by end users)
+- since Virtual Machines are software based, they can be moved very easily to another hypervisor on another system.
+
+## Types of Virtual Machines (VMs)
+- also called Virtual Servers, Virtual Instances, or just Instances (names are cloud provider dependent)
+
+### Shared or Public Cloud VMs
+- multi-tenant - underlying server is a virtual server, and shared across other tenants (users), lots of predefined configurations, can cunstomers too. can be prices hourly/monthly/minutes/sec
+- singe tenant
+
+### Transient or Spot VMs
+- take advantage of unused capacity in a cloud data center
+- lower cost
+- Cloud provider can take them take back if they need them
+- great for non-production, testing, developing, and running stateless workloads, testing scalability
+- running big data and HPC (high perforance computing) workloads at a lower cost
+
+### Reserved Capacity VMs
+- reserved capacity and guarantee resources for future deployment
+- choose a term. Longer term = lower cost.
+- if you exceed capacity, you can provision monthly or hourly VMs. but not all predefined VM families or configurations may be available as reserved
+
+### Dedicated Hosts
+- single tenant isolation
+- exclusive use of resources
+- only your VMs run on a given host
+- when provisioning, must specify data center and pod
+- then assign instances to the host
+- maximum control over workload placement
+- often used to meet compliance, laws, and lisencing terms
+
+## Bare Metal Servers
