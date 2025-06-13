@@ -66,3 +66,11 @@
 - These servers also excel in big data analytics applications and GPU-intensive solutions.
 - Some workload examples that bare metal servers satisfy are ERP, CRM, AI, deep learning, and virtualization.
 ![image](https://github.com/user-attachments/assets/766ad9b6-e17b-4a78-aa73-2fa1e95bcca6)
+
+## Secure Networks in Cloud
+![image](https://github.com/user-attachments/assets/0c3bac81-8745-4fd2-a165-32b68b5e14d0)
+- Cloud networks are deployed in networking spaces that are logically separated segments of the networks using options including Virtual, Private Cloud, or VPC that in turn can be divided into smaller segments called subnets. Logically segmented cloud networks are private carveout of the cloud that offer customers the security of private clouds and the scalability of public clouds. Cloud resources such as VMs or Virtual Server Instances, VSIs, storage, network connectivity, and load balancers are deployed into subnets.
+  -  Subnets are also the main area where security is implemented in the Cloud. Every subnet is protected by access control lists or ACLs that serve as a subnet-level firewall.
+    -  Within the subnet, one could create security groups that provide security at the instance level, such as VSIs. Once you build a subnet, then it is time to add some VSIs and storage to it so that you could run your applications.
+      -  Then you can group each VSI into security groups
+      - for web facing VSIs, use can use a public gateway and VPN gateways
