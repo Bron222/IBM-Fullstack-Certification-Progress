@@ -78,3 +78,15 @@
   -  for web facing VSIs, use can use a public gateway and VPN gateways for securely gaining access to the internet for these VSIs
 - Direct Connectivity: high-speed direct link from enterprise to cloud
 - Building a Cloud Network entails creating a set of logical constructs that deliver networking functionality that is akin to the data center networks that all IT professionals have come to rely on for securing their environments and ensuring high-performing business applications.
+
+## Containers
+- Containers are an executable unit of software in which application code is packaged, along with its libraries and dependencies, in common ways so that it can be run anywhere, whether it be on desktop, traditional IT, or the cloud.
+- small, fast, portable
+- do not need to include a guest OS in every instance because they leverage the host's OS
+![image](https://github.com/user-attachments/assets/79976eb7-7515-4df6-bf45-893dd12193ce)
+- containers (like Docker):
+  - first create a manifest (something that describes the container itself; in Docker, this would be a docker file or Cloud Foundry)
+  - next, create an image (Docker image; or for Rocket would be ACI or app container image)
+  - lastly, create the container itself (contains all the runtimes, libraries, and binaries needed to run the app)
+- within a container (unlike a VM) instead of a hypervisor, you use a runtime engine (like Docker engine) 
+  - next, 
