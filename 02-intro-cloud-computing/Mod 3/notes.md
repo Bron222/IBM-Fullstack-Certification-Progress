@@ -1,4 +1,4 @@
-# Notes for section 2 / mod 5: Cloud Infrastructure
+# Notes for section 2 / mod 3: Cloud Infrastructure
 
 # Infrastructure Overview
 - is the foundation of the cloud. This layer consists of physical resources that are housed in Regions, Zones and Data Centers.
