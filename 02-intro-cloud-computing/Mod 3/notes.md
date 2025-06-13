@@ -76,3 +76,5 @@
   -  Within the subnet, one could create security groups that provide security at the instance level, such as VSIs. Once you build a subnet, then it is time to add some VSIs and storage to it so that you could run your applications.
   -  Then you can group each VSI into security groups
   -  for web facing VSIs, use can use a public gateway and VPN gateways for securely gaining access to the internet for these VSIs
+- Direct Connectivity: high-speed direct link from enterprise to cloud
+- Building a Cloud Network entails creating a set of logical constructs that deliver networking functionality that is akin to the data center networks that all IT professionals have come to rely on for securing their environments and ensuring high-performing business applications.
