@@ -178,7 +178,7 @@
 - used cached (AKA copies) of website content to user's based on geographic locations, closing the distance between content and end-users.
 ![image](https://github.com/user-attachments/assets/82146725-1739-4315-89d7-7f29a8f8ccb4)
 
-# Summary
+## Summary of Cloud Storage
 - Cloud storage is available in four main types–Direct Attached, File, Block, and Object Storage. These storage types differ in how they can be accessed, the capacity they offer, how much they cost, the types of data they are best suited to store, and their read-write speed.
 
 - Direct Attached (or Local) Storage is storage that is presented directly to a cloud-based server and is effectively either within the host server chassis or within the same rack.
