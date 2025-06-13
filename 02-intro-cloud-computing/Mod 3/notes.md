@@ -1,6 +1,6 @@
 # Notes for sec 2 mod 5: Cloud Infrastructure
 
-## Infrastructure Overview
+# Infrastructure Overview
 - is the foundation of the cloud. This layer consists of physical resources that are housed in Regions, Zones and Data Centers.
 - A Cloud provider’s IT environment is typically distributed across many Regions around the world.
 - A cloud Region, is a geographic area or location where a Cloud provider’s infrastructure is clustered, and may have names like NA South or US East.
@@ -89,4 +89,27 @@
   - next, create an image (Docker image; or for Rocket would be ACI or app container image)
   - lastly, create the container itself (contains all the runtimes, libraries, and binaries needed to run the app)
 - within a container (unlike a VM) instead of a hypervisor, you use a runtime engine (like Docker engine) 
-  - next, 
+- it recognizes and runs all the things in the container for the app to run without using a different VM instance OS each time you need to run the app in a different VM instance
+
+## Summary of Cloud Infrastructure
+- Cloud infrastructure consists of data centers, storage, networking components, and computing resources.
+
+- Virtualization is the process of creating a software-based version of physical resources, made possible by hypervisors. 
+
+- A few different types of Virtual Machines can be provisioned on the cloud. These include:
+
+  - Shared or Public Cloud VMs that are provider-managed, multi-tenant deployments that can be provisioned on-demand with predefined sizes
+
+  - Transient or Spot VMs that take advantage of unused capacity in a cloud data center
+
+  - Reserved VMs that allow you to reserve capacity and guarantee resources for future deployments 
+
+  - Dedicated hosts that offer single-tenant isolation
+
+- Bare metal servers are single-tenant physical servers that are dedicated to a single customer. Bare metal servers fulfill the demanding needs of high-performance computing (HPC) and data-intense applications. They are ideal for applications that have a high degree of security or compliance requirements.
+
+- Networking capabilities in the cloud are delivered as a service rather than in the form of rack-mounted devices. Cloud resources such as VMs (or VSIs), storage, network connectivity, and load balancers are deployed into subnets within Virtual Private Clouds (VPCs). Using private and public subnets allows users to deploy multi-tier enterprise applications securely. Load balancers distribute the traffic and allow applications to be responsive.
+
+- Containers are executable units of software in which application code, its libraries, and its dependences are packaged in a common way, so that it can be run anywhere, from desktops, traditional IT, to the cloud. Containers are more lightweight and consume fewer resources than Virtual Machines, helping streamline the development and deployment of cloud native applications. 
+
+# 
